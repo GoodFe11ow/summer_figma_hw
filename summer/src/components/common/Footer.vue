@@ -1,11 +1,11 @@
 <template>
-    <div class="px-5 bg-[#001412] text-white pb-5">
-        <div class="text-6xl/[70px] font-semibold py-10 ">
+    <div class="px-5 bg-[#001412] text-white pb-5 md:px-8">
+        <div class="text-6xl/[70px] font-semibold py-10 md:text-7xl">
             <h2>Have an idea?</h2>
             <router-link to="/contact" class="font-normal underline decoration-3 underline-offset-4">Let’s Talk</router-link>
         </div>
         <div>
-            <div class="flex flex-col gap-10 mb-10">
+            <div class="flex flex-col gap-10 mb-10 md:mb-30">
                 <div class="flex flex-col gap-5">
                     <div>
                         <p class="pb-2 text-[20px]">
@@ -65,16 +65,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center text-xl font-normal">
+                    <div class="text-center text-xl font-normal md:text-left md:w-[382px]">
                         <p class="mb-6">Join our mailing list and get to know exciting stuff at first hand</p>
-                        <input type="search" placeholder="johnchoe@gmail.com" class="border-1 w-[220px] h-[56px] bg-white placeholder: text-gray-400 pl-2"><button class="h-[56px] w-[60px] bg-[#00A693]"><i class="fa-regular fa-paper-plane text-white fa-xl"></i></button>
+                        <input type="search" placeholder="johnchoe@gmail.com" class=" w-[220px] h-[56px] md:w-[316px] md:h-[64px] bg-white placeholder: text-gray-400 pl-2">
+                        <button class="h-[57px] w-[60px] md:h-[65px] md:w-[65px] bg-[#00A693]"><i class="fa-regular fa-paper-plane text-white fa-xl"></i></button>
                     </div>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center font-light md:flex md:justify-between">
                 <p class="mb-2">Made it with love by Hexwaave. Powered by Webflow.</p>
                 <div class="flex gap-5 justify-center">
-                    <a href="">Policy</a>
+                    <a href=""> Privacy Policy</a>
                     <a href="">Sitemap</a>
                 </div>
             </div>

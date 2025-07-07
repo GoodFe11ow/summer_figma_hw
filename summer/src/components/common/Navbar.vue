@@ -3,8 +3,10 @@
 </script>
 
 <template>
-    <div class="flex justify-between mx-5">
-        <h3 class="text-3xl">Nitro</h3>
+    <div class="flex justify-between mx-5 md:mx-8">
+        <router-link to="/">
+            <h3 class="text-[28px] md:text-[36px] md:font-medium">Nitro</h3>
+        </router-link>
         <BurgerMenu />
     </div>
 </template>
