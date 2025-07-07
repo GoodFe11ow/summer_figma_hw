@@ -1,6 +1,6 @@
 <template>
-    <div class="px-5 bg-[#001412] text-white pb-5 md:px-8 md:pb-8 lg:px-10">
-        <div class="text-6xl/[70px] font-semibold py-10 md:text-7xl lg:flex lg:gap-2">
+    <div class="px-5 bg-[#001412] text-white pb-5 md:px-8 md:pb-8 lg:px-10 xl:px-35">
+        <div class="text-6xl/[70px] font-semibold py-10 md:text-7xl lg:flex lg:gap-2 xl:text-8xl">
             <h2>Have an idea?</h2>
             <router-link to="/contact" class="font-normal underline decoration-3 underline-offset-4">Let’s Talk</router-link>
         </div>
