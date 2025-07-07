@@ -1,11 +1,11 @@
 <template>
-    <div class="px-5 bg-[#001412] text-white pb-5 md:px-8 xl:px-20">
-        <div class="text-6xl/[70px] font-semibold py-10 md:text-7xl xl:flex xl:gap-2">
+    <div class="px-5 bg-[#001412] text-white pb-5 md:px-8 md:pb-8 lg:px-10">
+        <div class="text-6xl/[70px] font-semibold py-10 md:text-7xl lg:flex lg:gap-2">
             <h2>Have an idea?</h2>
             <router-link to="/contact" class="font-normal underline decoration-3 underline-offset-4">Let’s Talk</router-link>
         </div>
-        <div class="xl:flex xl:flex-col">
-            <div class="flex flex-col gap-10 mb-10 md:mb-30 xl:flex-row xl:gap-28 xl:justify-between xl:pt-15">
+        <div class="lg:flex lg:flex-col">
+            <div class="flex flex-col gap-10 mb-10 md:mb-30 lg:flex-row lg:gap-28 lg:justify-between lg:pt-15">
                 <div class="flex flex-col gap-5">
                     <div>
                         <p class="pb-2 text-[20px]">
@@ -65,9 +65,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center text-xl font-normal md:text-left md:w-[382px] xl:w-[282px]">
+                    <div class="text-center text-xl font-normal md:text-left md:w-[382px] lg:w-[282px]">
                         <p class="mb-6">Join our mailing list and get to know exciting stuff at first hand</p>
-                        <input type="search" placeholder="johnchoe@gmail.com" class=" w-[220px] h-[56px] md:w-[316px] md:h-[64px] xl:w-[216px] bg-white placeholder: text-gray-400 pl-2">
+                        <input type="search" placeholder="johnchoe@gmail.com" class=" w-[220px] h-[56px] md:w-[316px] md:h-[64px] lg:w-[216px] bg-white placeholder: text-gray-400 pl-2">
                         <button class="h-[57px] w-[60px] md:h-[65px] md:w-[65px] bg-[#00A693]"><i class="fa-regular fa-paper-plane text-white fa-xl"></i></button>
                     </div>
                 </div>
