@@ -1,1 +1,12 @@
-@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-base: 'Outfit', sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-base);
+  }
+}
