@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-black py-20 px-[6%]">
+    <div class="bg-black py-20 lg:py-[8%] xl:py-[7%] px-[6%] md:px-[4%] lg:px-[6%] xl:px-[7%]">
         <div class="mb-20">
-            <p class="text-[#33B8A9] text-xl mb-5">Our Delightful Services</p>
-            <h4 class="text-white font-semibold text-[36px]">We are a group of passionate people working closely with clients so their business can grow.</h4>
+            <p class="text-[#33B8A9] text-xl  mb-5">Our Delightful Services</p>
+            <h4 class="text-white font-semibold text-[36px]/[47px] md:text-5xl/[62px] lg:text-[54px]/[70px] xl:text-[60px]/[83px] xl:font-normal">We are a group of passionate people working closely with clients so their business can grow.</h4>
         </div>
-        <div>
-            <OurServiceCard 
+        <div class="lg:flex lg:flex-wrap lg:gap-8">
+            <OurServiceCard
             v-for="(a, i) in card_data"
             :key="i"
             :svgIcon="a.svgIcon"

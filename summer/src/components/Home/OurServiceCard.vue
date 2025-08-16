@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#00211D] mb-8">
+    <div class="bg-[#00211D] mb-8 lg:w-[31%] xl:w-[32%]">
         <div class="pt-8 pl-8">
             <div class="bg-[#004B49] flex justify-center items-center w-20 h-20 rounded-full">
                 <div class="w-10 h-10"  v-html="svgIcon"></div>
