@@ -1,22 +1,22 @@
 <template>
-    <div class="bg-black text-white py-[31%] md:py-[13%] lg:py-[8%] xl:py-[7%] px-[6%] md:px-[3%] lg:px-[6%] xl:px-[7%]">
-        <div class="flex flex-col md:flex-row md:justify-between items-center ">
-            <div>
-              <h4 class="text-[36px]/[47px] md:text-[64px]/[83px] font-medium ">Selected works</h4>
-              <p class="text-[18px]/[23px]">See our featured works here</p>
-            </div>
-            <button class="w-[180px] h-[68px] border-2 border-[#008576] mt-5 md:mt-0">View All</button>
+  <div class="bg-black text-white py-[31%] md:py-[13%] lg:py-[8%] xl:py-[7%] px-[6%] md:px-[3%] lg:px-[6%] xl:px-[7%]">
+    <div class="flex flex-col md:flex-row md:justify-between items-center ">
+        <div>
+          <h4 class="text-[36px]/[47px] md:text-[64px]/[83px] font-medium ">Selected works</h4>
+          <p class="text-[18px]/[23px]">See our featured works here</p>
         </div>
-        <div class="mt-15 flex flex-col gap-15 lg:flex-wrap lg:flex-row">
-          <WorkCaseCard 
-            v-for="card in cardsData"
-          :key="card.id"
-          :image="card.image"
-          :title="card.title"
-          :tags="card.tags"
-          :description="card.description"/>
-        </div>
+        <button class="w-[180px] h-[68px] border-2 border-[#008576] mt-5 md:mt-0">View All</button>
     </div>
+    <div class="mt-15 flex flex-col gap-15 lg:flex-wrap lg:flex-row">
+      <WorkCaseCard 
+        v-for="card in cardsData"
+      :key="card.id"
+      :image="card.image"
+      :title="card.title"
+      :tags="card.tags"
+      :description="card.description"/>
+    </div>
+  </div>
 </template>
 
 <script setup>
