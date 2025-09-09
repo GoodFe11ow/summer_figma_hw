@@ -1,12 +1,12 @@
 <template>
-    <div class="bg-black text-white py-[80px] px-[20px]">
-        <div class="text-center">
+    <div class="bg-black text-white py-[80px] px-[20px] md:px-[32px] lg:py-[100px] lg:px-[186px] xl:py-[140px] xl:px-[27%]">
+        <div class="text-center md:text-left lg:text-center">
             <h3 class="text-[20px] font-bold text-[#00A693]">Our Design Process</h3>
-            <h2 class="text-[40px]/[52px] font-semibold mt-[12px] mb-[20px]">What is your web design process? How do you start?</h2>
+            <h2 class="text-[40px]/[52px] md:text-[48px] lg:text-[64px]/[83px] font-semibold mt-[12px] mb-[20px]">What is your web design process? How do you start?</h2>
             <p class="text-[20px] font-light">Our main web design process is divided into the following steps:</p>
         </div>
-        <div class="mt-20 flex flex-col gap-20 relative">
-            <div class="h-[100%] absolute border-l-4 z-[0] left-2 border-[#006458]"></div>
+        <div class="mt-15 lg:mt-25 flex flex-col gap-20 relative">
+            <div class="h-[100%] absolute border-l-4 z-[0] left-2 lg:left-[42%] border-[#006458]"></div>
             <WorkProcessCard 
             v-for="(a, i ) in processData"
             :key="i"
