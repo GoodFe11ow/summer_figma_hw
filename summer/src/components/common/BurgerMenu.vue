@@ -22,10 +22,7 @@
       v-if="isMenuOpen"
       class="absolute right-0 top-10 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg py-1 z-10"
     >
-      <router-link to="/work" href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100" @click="isMenuOpen = false">Work</router-link>
-      <router-link to="/work" href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100" @click="isMenuOpen = false">Work</router-link>
-      <router-link to="/work" href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100" @click="isMenuOpen = false">Work</router-link>
-      <router-link to="/work" href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100" @click="isMenuOpen = false">Work</router-link>
+      <router-link to="/work"  class="block px-4 py-2 text-gray-800 hover:bg-gray-100" @click="isMenuOpen = false">Work</router-link>
     </nav>
   </div>
 </template>
