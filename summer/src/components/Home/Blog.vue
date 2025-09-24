@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-[#001412] text-white px-[6%] py-[10%]">
-        <div>
-            <h1>Latest Articles</h1>
-            <button>View All</button>
+    <div class="bg-[#001412] text-white px-[6%] py-[22%]">
+        <div class="mb-[60px] flex flex-col text-center items-center">
+            <h1 class="text-[40px] font-semibold">Latest Articles</h1>
+            <a class="py-[16px] px-[48px] w-[186px] mt-[20px]  border-[#008576] border-1">View All</a>
         </div>
         <div class="flex overflow-hidden">
             <BlogItem  v-for="(el, index) in blogData"
@@ -11,7 +11,7 @@
                 :tags="el.tags"
                 :title="el.title"
                 :description="el.description"
-                class="flex-shrink-0"
+                class="flex-shrink-0 md:w-[32%]"
             />
         </div>
     </div>
