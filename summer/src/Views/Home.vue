@@ -4,6 +4,7 @@
     <SelectedWorks />
     <WebDesignProcess />
     <Testimonials />
+    <Blog />
 </template>
 
 <script setup>
@@ -12,4 +13,5 @@
     import SelectedWorks from '../components/Home/SelectedWorks.vue';
     import WebDesignProcess from '../components/Home/WebDesignProcess.vue';
     import Testimonials from '../components/Home/Testimonials.vue';
+    import Blog from '../components/Home/Blog.vue'
 </script>

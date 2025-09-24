@@ -48,7 +48,7 @@ const carouselStyle = computed(() => {
 </script>
 
 <template>
-  <div class="relative bg-black px-[6%] py-[25%] md:px-[4%] md:py-[13%] flex flex-col items-center lg:px-[6%] lg:py-[8%] xl:px-[4%] xl:py-[5%]">
+  <div class="relative bg-[#001412] px-[6%] py-[25%] md:px-[4%] md:py-[13%] flex flex-col lg:px-[6%] lg:py-[8%] xl:px-[4%] xl:py-[5%]">
     <div>
       <h1 class="text-white text-[36px] text-center font-medium mb-10 md:text-[48px] md:font-semibold md:mb-15 xl:text-[54px]">A few words from our clients</h1>
     </div>
@@ -62,7 +62,7 @@ const carouselStyle = computed(() => {
           :key="testimonial.id"
           class="flex-shrink-0 w-full md:w-[48%] xl:w-[32%]"
         >
-          <div class="bg-[#00211D] text-white p-5 md:p-10">
+          <div class="bg-[#00211D] text-white  p-5 md:p-10">
             <p class="text-[20px] font-normal md:font-light">{{ testimonial.text }}</p>
             <div class="flex mt-[33px] gap-4 justify-start items-center">
               <img
@@ -80,15 +80,15 @@ const carouselStyle = computed(() => {
       </div>
     </div>
     
-    <div class="hidden lg:flex gap-10 mt-15">
+    <div class="hidden lg:justify-center  lg:flex gap-10 mt-15">
       <div class="inset-y-0 left-0 lg:flex items-center ">
-        <button @click="prev" class="bg-black text-white p-2 rounded-full">
+        <button @click="prev" class="bg-[#001412] text-white p-2 rounded-full">
           &lt;
         </button>
       </div>
       
       <div class="inset-y-0 right-0 lg:flex items-center ">
-        <button @click="next" class="bg-black text-white p-2 rounded-full">
+        <button @click="next" class="bg-[#001412] text-white p-2 rounded-full">
           &gt;
         </button>
       </div>

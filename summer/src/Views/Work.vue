@@ -1,5 +1,5 @@
 <template>
-    <SelectedWorks />
+    <SelectedWorks class="pt-[140px]" />
 </template>
 
 <script setup>

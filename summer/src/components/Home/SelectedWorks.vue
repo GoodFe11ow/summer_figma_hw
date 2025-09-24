@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white py-[31%] md:py-[13%] lg:py-[8%] xl:py-[7%] px-[6%] md:px-[3%] lg:px-[6%] xl:px-[7%]">
+  <div class="bg-[#001412] text-white py-[31%] md:py-[13%] lg:py-[8%] xl:py-[7%] px-[6%] md:px-[3%] lg:px-[6%] xl:px-[7%]">
     <div class="flex flex-col md:flex-row md:justify-between items-center ">
         <div>
           <h4 class="text-[36px]/[47px] md:text-[64px]/[83px] font-medium ">Selected works</h4>

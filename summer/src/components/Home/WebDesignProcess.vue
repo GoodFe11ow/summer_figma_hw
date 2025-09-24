@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black text-white py-[80px] px-[20px] md:px-[32px] lg:py-[100px] lg:px-[186px] xl:py-[140px] xl:px-[27%]">
+    <div class="bg-[#001412] text-white py-[80px] px-[20px] md:px-[32px] lg:py-[100px] lg:px-[186px] xl:py-[140px] xl:px-[27%]">
         <div class="text-center md:text-left lg:text-center">
             <h3 class="text-[20px] font-bold text-[#00A693]">Our Design Process</h3>
             <h2 class="text-[40px]/[52px] md:text-[48px] lg:text-[64px]/[83px] font-semibold mt-[12px] mb-[20px]">What is your web design process? How do you start?</h2>
