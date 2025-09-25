@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#001412] text-white px-[6%] py-[22%] md:py-[13%] md:px-[4%] lg:py-[8%] lg:px-[6%]">
+    <div class="bg-[#001412] text-white px-[6%] py-[22%] md:py-[13%] md:px-[4%] lg:py-[8%] lg:px-[6%] xl:py-[7%] xl:px-[7%]">
         <div class="mb-[60px] flex flex-col text-center items-center md:flex-row md:justify-between">
             <h1 class="text-[40px] font-semibold md:text-[64px]">Latest Articles</h1>
             <a class="py-[16px] px-[48px] w-[186px] mt-[20px]  border-[#008576] border-1 text-[18px]">View All</a>
