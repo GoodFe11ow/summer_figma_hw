@@ -1,17 +1,17 @@
 <template>
-    <div class="bg-[#001412] text-white px-[6%] py-[22%]">
-        <div class="mb-[60px] flex flex-col text-center items-center">
-            <h1 class="text-[40px] font-semibold">Latest Articles</h1>
-            <a class="py-[16px] px-[48px] w-[186px] mt-[20px]  border-[#008576] border-1">View All</a>
+    <div class="bg-[#001412] text-white px-[6%] py-[22%] md:py-[13%] md:px-[4%] lg:py-[8%] lg:px-[6%]">
+        <div class="mb-[60px] flex flex-col text-center items-center md:flex-row md:justify-between">
+            <h1 class="text-[40px] font-semibold md:text-[64px]">Latest Articles</h1>
+            <a class="py-[16px] px-[48px] w-[186px] mt-[20px]  border-[#008576] border-1 text-[18px]">View All</a>
         </div>
-        <div class="flex overflow-hidden">
+        <div class="flex overflow-hidden gap-[3%]">
             <BlogItem  v-for="(el, index) in blogData"
                 :key="index"
                 :image="el.image"
                 :tags="el.tags"
                 :title="el.title"
                 :description="el.description"
-                class="flex-shrink-0 md:w-[32%]"
+                class="flex-shrink-0 md:w-[31%]"
             />
         </div>
     </div>
