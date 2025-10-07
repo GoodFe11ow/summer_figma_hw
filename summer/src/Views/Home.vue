@@ -5,6 +5,7 @@
     <WebDesignProcess />
     <Testimonials />
     <Blog />
+    <Clients />
 </template>
 
 <script setup>
@@ -14,4 +15,5 @@
     import WebDesignProcess from '../components/Home/WebDesignProcess.vue';
     import Testimonials from '../components/Home/Testimonials.vue';
     import Blog from '../components/Home/Blog.vue'
+    import Clients from '../components/Home/Clients.vue';
 </script>
