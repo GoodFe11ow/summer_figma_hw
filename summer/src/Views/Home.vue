@@ -6,6 +6,7 @@
     <Testimonials />
     <Blog />
     <Clients />
+    <Faq />
 </template>
 
 <script setup>
@@ -16,4 +17,5 @@
     import Testimonials from '../components/Home/Testimonials.vue';
     import Blog from '../components/Home/Blog.vue'
     import Clients from '../components/Home/Clients.vue';
+    import Faq from '../components/Home/Faq.vue';
 </script>
