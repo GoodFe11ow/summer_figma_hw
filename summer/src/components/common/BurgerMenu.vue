@@ -77,7 +77,7 @@ onBeforeUnmount(() => document.removeEventListener("click", handleClickOutside))
         Privacy Policy
       </router-link>
       <router-link
-        to="/contact-us"
+        to="/contact"
         class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
         @click="isMenuOpen = false"
       >
