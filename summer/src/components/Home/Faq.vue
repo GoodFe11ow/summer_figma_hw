@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-[#001412] text-white px-[6%] py-[25%]">
+    <div class="bg-[#001412] text-white px-[6%] py-[25%] md:px-[4%] md:py-[13%] lg:px-[6%] lg:py-[8%] xl:flex xl:gap-15 xl:p-[7%]">
         <div>
-            <h2 class="text-[36px] font-semibold mb-15 mr-1">Frequently asked questions</h2>
+            <h2 class="text-[36px] font-semibold mb-15 mr-1 md:text-[48px] md:mr-[50%] lg:text-[64px] lg:mr-[57%] xl:mr-[30%]">Frequently asked questions</h2>
         </div>
         <div>
             <FaqCycle v-for="(el, index) in FaqData"
