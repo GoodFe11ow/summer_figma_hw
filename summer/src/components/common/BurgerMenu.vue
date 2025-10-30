@@ -83,6 +83,13 @@ onBeforeUnmount(() => document.removeEventListener("click", handleClickOutside))
       >
         Contact Us
       </router-link>
+      <router-link
+        to="/blog"
+        class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+        @click="isMenuOpen = false"
+      >
+        Blog
+      </router-link>
     </nav>
   </div>
 </template>

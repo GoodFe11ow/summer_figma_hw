@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Базовые настройки для современного JS и Vue
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    // Настройки для путей и алиасов
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"], 
+      // АЛИАСЫ SHADCN
+      "@/components/*": ["src/components/*"],
+      "@/lib/*": ["src/lib/*"]
+    }
+  },
+  "include": [
+    "src/**/*.js", 
+    "src/**/*.vue",
+    "src/**/*.ts" // На всякий случай
+  ]
+}

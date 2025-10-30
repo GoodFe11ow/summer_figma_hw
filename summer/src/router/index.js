@@ -4,6 +4,7 @@ import Work from '../Views/Work.vue';
 import ContactUs from '../Views/ContactUs.vue';
 import WorkSinglePage from '../Views/WorkSinglePage.vue';
 import PrivacyPolicy from '../components/PrivacyPolicy.vue';
+import Blog from '../Views/Blog.vue';
 
 const routes = [
     { path: '/', component: Home },
@@ -11,6 +12,7 @@ const routes = [
     { path: '/contact', component: ContactUs},
     { path: '/privacy-policy', component: PrivacyPolicy},
     { path: '/singleWork', component: WorkSinglePage},
+    {path: '/blog', component: Blog}
     
 ]
 
